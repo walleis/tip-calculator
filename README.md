@@ -41,10 +41,6 @@ Each person will pay R$11.20.
 
 No specific installation is required. Simply save the provided code as a `.py` file (e.g., `tip_calculator.py`) and run it using a Python interpreter.
 
-## Author
-
-This program was created as a simple exercise demonstrating the use of basic math operators and input/output in Python.
-
 ## License
 
 This is a simple, educational program and does not have a formal license. Feel free to use and modify it for personal learning purposes.
