@@ -14,14 +14,14 @@ This simple Python program calculates how much each person should pay when split
 
 ## Example
 
-*Welcome to the tip calculator!
-*What was the total bill?
-*R$50.00
-*What percentage tip would you like to give? 10, 12 or 15?
-*12
-*How many people to split the bill?
-*5
-*Each person will pay R$11.20.
+* Welcome to the tip calculator!
+* What was the total bill?
+* R$50.00
+* What percentage tip would you like to give? 10, 12 or 15?
+* 12
+* How many people to split the bill?
+* 5
+* Each person will pay R$11.20.
 
 ## Functionality
 
