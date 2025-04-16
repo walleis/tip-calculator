@@ -1,17 +1,50 @@
-Tip Calculator
-Welcome to the Tip Calculator, a simple Python program designed to help you quickly calculate the tip and split the bill among a group of people. Whether you're dining out or sharing expenses, this tool makes it easy to determine how much each person owes.
+# Tip Calculator
 
-How It Works:
-The program prompts the user to enter the total bill amount.
-The user inputs the desired tip percentage (e.g., 10, 15, 20).
-The user specifies how many people are splitting the bill.
-The calculator computes the total amount (bill + tip) and divides it evenly, showing the amount each person should pay.
+## Description
 
-Requirements:
-Python 3.x: Ensure Python is installed on your system. No additional libraries are needed since this uses only built-in functionality.
+This simple Python program calculates how much each person should pay when splitting a bill at a restaurant, including a tip. It prompts the user for the total bill amount, the desired tip percentage, and the number of people sharing the bill.
 
-Installation:
-Download or clone this repository to your computer.
-Verify that Python is installed by running python --version or python3 --version in your terminal.
-Run the program by opening a terminal in the project folder and typing:
-python tip_calculator.py
+## How to Use
+
+1.  **Run the script:** Execute the Python script in your terminal or Python environment.
+2.  **Input the total bill:** When prompted, enter the total amount of the bill in Brazilian Reais (R$) and press Enter.
+3.  **Input the tip percentage:** Enter the desired tip percentage (10, 12, or 15) and press Enter.
+4.  **Input the number of people:** Enter the number of people who will be splitting the bill and press Enter.
+5.  **Result:** The program will then calculate and display the amount each person needs to pay, rounded to two decimal places.
+
+## Example
+
+Welcome to the tip calculator!
+What was the total bill?
+R$50.00
+What percentage tip would you like to give? 10, 12 or 15?
+12
+How many people to split the bill?
+5
+Each person will pay R$11.20.
+
+## Functionality
+
+* Takes the total bill amount as input.
+* Takes the desired tip percentage (as an integer) as input.
+* Takes the number of people splitting the bill as input.
+* Calculates the total amount including the tip.
+* Divides the total amount by the number of people.
+* Rounds the final amount each person pays to two decimal places.
+* Prints the result in the format "Each person will pay R${finalresult}."
+
+## Requirements
+
+* Python 3.x (This code is written in Python 3 and may not be compatible with older versions without modification.)
+
+## Installation
+
+No specific installation is required. Simply save the provided code as a `.py` file (e.g., `tip_calculator.py`) and run it using a Python interpreter.
+
+## Author
+
+This program was created as a simple exercise demonstrating the use of basic math operators and input/output in Python.
+
+## License
+
+This is a simple, educational program and does not have a formal license. Feel free to use and modify it for personal learning purposes.
